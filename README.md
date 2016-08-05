@@ -15,11 +15,13 @@ Bigfoot
 
 
 #Summary:
+Exile forum thread: http://www.exilemod.com/topic/17352-bigfoots-shipwrecks/
+
 This addon spawns shipwrecks with loot crates and markers in random water locations on server restart. It does NOT spawn AI at the crates (yet), but you are welcome to add AI.
 
 Inventory can NOT be taken from crates while the crate is underwater, due to Arma mechanics. Use R3F, Igiload, or built-in Exile crate mounting to load crates onto SDVs to be transported to shore.
 
-Feel free to extend this however you like. I encourage you to post your edits on http://www.exilemod.com/ so others can enjoy your improvements and contribute with further enhancements.
+Feel free to extend this however you like. I encourage you to post your edits on http://www.exilemod.com/topic/17352-bigfoots-shipwrecks/ so others can enjoy your improvements and contribute with further enhancements.
 
 Most settings can be configured to your preference in config.sqf.
 
@@ -48,5 +50,4 @@ Drop the BigfootsShipwrecks_Server.pbo file in your @ExileServer/addons/ folder.
 
 
 #Configuration:
-
 Edit values in config.sqf to your liking.
