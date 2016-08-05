@@ -38,9 +38,9 @@ Most settings can be configured to your preference in config.sqf.
 
 
 #License:
-This work is license under the Arma Public License Share Alike (APL-SA). Full license text can be found in the LICENSE.txt file in this package.
+This work is license under the Arma Public License Share Alike (APL-SA). Full license text can be found in /src/BigfootsShipwrecks_Server/APL SA.txt.
 
-Essentially, you must not charge for, or to use, this addon. If you make modifications to this addon, it can only be distributed with APL-SA. This is so others in the Exile Mod community can benefit from collaborative efforts.
+Essentially you must not charge for, or to use, this addon. If you make modifications to this addon, it can only be distributed with the same APL-SA license. This is so others in the Exile Mod community can benefit from collaborative efforts.
 
 
 #Installation:
