@@ -1,6 +1,7 @@
 # bigfoots-shipwrecks
 
 #Changelog:
+* 8/5/2016 v1.0.3 - syntax fix
 * 8/5/2016 v1.0.2 - fixed undefined log call in preinit
 * 8/5/2016 v1.0.1 - fixed filename typo
 * 8/5/2016 v1.0.0 - initial release
