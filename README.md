@@ -33,7 +33,7 @@ Most settings can be configured to your preference in config.sqf.
 
 #Roadmap:
 * Add optional AI spawns around crates.
-* Allow shipwrecks to cluster in certain areas - e.g 1/3 of ships would spawn in Altis central bay, and 1/3 of shipwrecks would spawn in deep water surrounding altis.
+* Allow shipwrecks to cluster in certain areas - e.g 2/3 of ships would spawn in Altis central bay, and 1/3 of shipwrecks would spawn in deep water surrounding altis.
 * Increased chance for certain loot
 
 
