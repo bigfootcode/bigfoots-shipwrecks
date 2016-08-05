@@ -1,11 +1,11 @@
 # bigfoots-shipwrecks
 
 #Changelog:
-8/5/2016 v1.0.1 - fixed filename typo
-8/5/2016 v1.0.0 - initial release
+* 8/5/2016 v1.0.1 - fixed filename typo
+*8/5/2016 v1.0.0 - initial release
 
 #Author:
-Bigfoot
+*Bigfoot
 
 
 #Credits:
