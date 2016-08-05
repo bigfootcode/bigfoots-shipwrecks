@@ -39,4 +39,4 @@ uiSleep 15; // TODO: is this needed?
 
 ["systemChatRequest", ["Bigfoot's Shipwrecks Initialized"]] call ExileServer_system_network_send_broadcast;
 
-true;
+true
