@@ -1,6 +1,6 @@
 if (!isServer) exitWith {};
 
-private["_crate", "_crateCargo", "_crateClass", "_crateCountPoptabsSeed", "_cratePosition", "_isDebugFillLogEnabled", "_marker", "_minDistance", "_maxDistance", "_positioning", "_spawnCenter", "_wreckage", "_wreckageClass", "_wreckCount", "_wreckId", "_wreckagePosition"];
+private["_crate", "_crateCargo", "_crateClass", "_crateCountPoptabsSeed", "_cratePosition", "_isDebugFillLogEnabled", "_marker", "_minDistance", "_maxDistance", "_positioning", "_spawnCenter", "_wreckage", "_wreckageClass", "_wreckCount", "_wreckId", "_wreckagePosition", "_array"];
 
 "Starting shipwreck spawns..." call ExileServer_BigfootsShipwrecks_util_logCommand;
 
@@ -21,7 +21,15 @@ for "_i" from 1 to _wreckCount do
 {   
     // Find location
     _wreckagePosition = [_spawnCenter, _minDistance, _maxDistance, 1, 2, 800, 0] call BIS_fnc_findSafePos; 
-
+    
+    _array = _wreckagePosition nearObjects [_wreckageClass, 3000];
+    if!(_array isEqualTo [])then
+    {
+        format["Position at [%1] had a wreck nearby, finding new position for wreck...", _wreckagePosition] call ExileServer_BigfootsShipwrecks_util_logCommand;
+        _wreckagePosition = [_spawnCenter, _minDistance, _maxDistance, 1, 2, 800, 0] call BIS_fnc_findSafePos;
+        format["New position found at [%1]", _wreckagePosition] call ExileServer_BigfootsShipwrecks_util_logCommand;        
+    };
+    
     format["Found position at [%1] for wreck.", _wreckagePosition] call ExileServer_BigfootsShipwrecks_util_logCommand;
 
     // Create ID for this wreck
